@@ -8,7 +8,7 @@ ah = active_hash
 Point 機能の流れを考える！
 ユーザーを登録する→商品を出品する→商品を購入する→配送先を決める
 
-## users table**
+## users table
 | Column                 | Type   | Options                   |
 | ---------------------- | ------ | ------------------------- |
 | id(pk)                 |        |                           |
