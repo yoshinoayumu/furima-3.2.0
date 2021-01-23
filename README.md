@@ -66,11 +66,11 @@ Point 機能の流れを考える！
 | -------------------------- | ------- | ----------------------- |
 | id(pk)                     |         |                         |
 | postal_code                | string  | null:false              |
-| prefecture                 | integer | null:false              |
+| prefecture_id(ak)          | integer | null:false              |
 | city                       | string  | null:false              |
 | address                    | string  | null:false              |
 | building	                 | string  |                         |
-| phone_number               | integer | null:false              |
+| phone_number               | string  | null:false              |
 | purchase_id(fk)            | integer | foreign_key:true        |
 
 ### Association
