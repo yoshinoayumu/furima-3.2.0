@@ -69,7 +69,7 @@ Point 機能の流れを考える！
 | prefecture                 | integer | null:false              |
 | city                       | string  | null:false              |
 | address                    | string  | null:false              |
-| building	                 | string  | null:false              |
+| building	                 | string  |                         |
 | phone_number               | integer | null:false              |
 | purchase_id(fk)            | integer | foreign_key:true        |
 
