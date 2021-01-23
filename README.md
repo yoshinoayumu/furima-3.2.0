@@ -65,13 +65,13 @@ Point 機能の流れを考える！
 | Column                     | Type    | Options                 |
 | -------------------------- | ------- | ----------------------- |
 | id(pk)                     |         |                         |
-| name                       | string  | null:false              |
-| price                      | integer | null:false              |
-| info                       | text    | null:false              |
-| scheduled_delivery_id(ah)  | integer | null:false              |
-| shipping_fee_status_id(ah) | integer | null:false              |
-| prefecture_id(ah)          | integer | null:false              |
-| sales_status_id(ah)        | integer | null:false              |
+| postal_code                | string  | null:false              |
+| prefecture                 | integer | null:false              |
+| city                       | string  | null:false              |
+| address                    | string  | null:false              |
+| building	                 | string  | null:false              |
+| phone_number               | integer | null:false              |
+| purchase_id(fk)            | integer | foreign_key:true        |
 
 ### Association
 - belongs_to purchase
